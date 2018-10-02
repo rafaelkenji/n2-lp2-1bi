@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(113,93,34);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.FXMLTelaPedidoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7e805e" height="155.0" layoutX="345.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="216.0" />
+      <Label layoutX="194.0" layoutY="14.0" text="PEDIDO">
+         <font>
+            <Font name="AMGDT_IV25" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="106.0" prefHeight="25.0" prefWidth="58.0" text="NOME">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField layoutX="18.0" layoutY="131.0" prefHeight="25.0" prefWidth="277.0" style="-fx-background-color: rgb(100,70,20);" />
+      <Label layoutX="18.0" layoutY="168.0" text="PRODUTO">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="cbProduto" layoutX="18.0" layoutY="192.0" prefHeight="25.0" prefWidth="216.0" style="-fx-background-color: rgb(100,70,20);" />
+      <ComboBox fx:id="cbTipoPag" layoutX="18.0" layoutY="260.0" prefHeight="25.0" prefWidth="270.0" style="-fx-background-color: rgb(100,70,20);" />
+      <Label layoutX="14.0" layoutY="235.0" text="TIPO DE PAGAMENTO">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="16.0" layoutY="298.0" text="MOMENTO DO PAGAMENTO">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="cbMomento" layoutX="20.0" layoutY="323.0" prefHeight="25.0" prefWidth="270.0" style="-fx-background-color: rgb(100,70,20);" />
+      <Button fx:id="btnMais" layoutX="236.0" layoutY="192.0" mnemonicParsing="false" onAction="#Add" style="-fx-background-color: rgb(100,70,20);" text="+">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnMenos" layoutX="269.0" layoutY="192.0" mnemonicParsing="false" onAction="#Tirar" style="-fx-background-color: rgb(100,70,20);" text="-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnConfirmar" layoutX="444.0" layoutY="447.0" mnemonicParsing="false" onAction="#Confirma" style="-fx-background-color: rgb(100,70,20);" text="CONFIRMAR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label fx:id="lbEspecial" layoutX="513.0" layoutY="242.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lbCarne" layoutX="513.0" layoutY="148.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lbQueijo" layoutX="510.0" layoutY="195.0" prefHeight="20.0" prefWidth="21.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="355.0" layoutY="196.0" text="PASTEL DE QUEIJO">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="356.0" layoutY="148.0" text="PASTEL DE CARNE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="359.0" layoutY="242.0" text="PASTEL ESPECIAL">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>

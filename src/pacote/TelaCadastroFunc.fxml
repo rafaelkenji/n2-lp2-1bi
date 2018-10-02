@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(113,93,34);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.FXMLCadastroFuncController">
+   <children>
+      <Label layoutX="207.0" layoutY="118.0" text="SALÁRIO">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="191.0" text="NOME">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="118.0" text="ID">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="26.0" text="CADASTRO FUNCIONARIO">
+         <font>
+            <Font name="AMGDT" size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="207.0" layoutY="150.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField layoutX="33.0" layoutY="225.0" prefHeight="25.0" prefWidth="512.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField layoutX="33.0" layoutY="150.0" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: rgb(100,70,20);" />
+      <Button fx:id="btnSalvar" layoutX="212.0" layoutY="420.0" mnemonicParsing="false" onAction="#Salvar" style="-fx-background-color: rgb(100,70,20);" text="SALVAR">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Button>
+      <Label fx:id="lbSenha" layoutX="35.0" layoutY="330.0" text="SENHA">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="lbLogin" layoutX="30.0" layoutY="259.0" text="LOGIN">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="txtSenha" layoutX="35.0" layoutY="368.0" prefHeight="25.0" prefWidth="525.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField fx:id="txtLogin" layoutX="35.0" layoutY="295.0" prefHeight="25.0" prefWidth="525.0" style="-fx-background-color: rgb(100,70,20);" />
+   </children>
+</Pane>

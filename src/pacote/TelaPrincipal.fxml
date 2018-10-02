@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(113,93,34);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.TelaPrincipalController">
+   <children>
+      <Button fx:id="BtnNovaVenda" layoutX="58.0" layoutY="134.0" mnemonicParsing="false" onAction="#NovaVenda" prefHeight="57.0" prefWidth="476.0" style="-fx-background-color: rgb(100,70,20);" text="CRIAR NOVO PEDIDO DE VENDA">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Button>
+      <Button fx:id="BtnCadCliente" layoutX="62.0" layoutY="201.0" mnemonicParsing="false" onAction="#CadCliente" prefHeight="57.0" prefWidth="476.0" style="-fx-background-color: rgb(100,70,20);" text="CADASTRAR CLIENTE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Button>
+      <Button fx:id="BtnCadFunc" layoutX="58.0" layoutY="274.0" mnemonicParsing="false" onAction="#CadFunc" prefHeight="57.0" prefWidth="476.0" style="-fx-background-color: rgb(100,70,20);" text="CADASTRAR FUNCIONÁRIO">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Button>
+      <Button fx:id="BtnConsultaPedido" layoutX="58.0" layoutY="346.0" mnemonicParsing="false" onAction="#Consulta" prefHeight="57.0" prefWidth="476.0" style="-fx-background-color: rgb(100,70,20);" text="CONSULTA PEDIDO">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Button>
+      <Button fx:id="BtnSair" layoutX="248.0" layoutY="420.0" mnemonicParsing="false" onAction="#Sair" style="-fx-background-color: rgb(100,70,20);" text="SAIR">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Button>
+      <Text layoutX="26.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASTELARIA DO JAILSON">
+         <font>
+            <Font name="AMGDT" size="40.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

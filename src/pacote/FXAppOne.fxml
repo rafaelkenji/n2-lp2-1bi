@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(113,93,34);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.FXAppOneController">
+   <children>
+      <Button fx:id="btnLogin" blendMode="SRC_ATOP" layoutX="246.0" layoutY="423.0" mnemonicParsing="false" onAction="#ProxTela" style="-fx-background-color: rgb(100,70,20);" text="LOGIN" textFill="#070707">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtLogin" layoutX="204.0" layoutY="172.0" prefHeight="47.0" prefWidth="248.0" style="-fx-background-color: rgb(100,70,20);">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtSenha" layoutX="206.0" layoutY="294.0" style="-fx-background-color: rgb(100,70,20);">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Label fx:id="lbLogin" layoutX="59.0" layoutY="178.0" text="LOGIN">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbSenha" layoutX="59.0" layoutY="303.0" text="SENHA">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Text layoutX="12.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASTELARIA DO JAILSON">
+         <font>
+            <Font name="AMGDT" size="42.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

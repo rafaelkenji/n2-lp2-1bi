@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(113,93,34);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.FXMLTelaCadastroClienteController">
+   <children>
+      <Button fx:id="btnSalvar" layoutX="235.0" layoutY="365.0" mnemonicParsing="false" onAction="#Salvar" style="-fx-background-color: rgb(100,70,20);" text="SALVAR">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Button>
+      <TextField layoutX="37.0" layoutY="113.0" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField layoutX="26.0" layoutY="185.0" prefHeight="25.0" prefWidth="497.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField layoutX="233.0" layoutY="113.0" prefHeight="25.0" prefWidth="289.0" style="-fx-background-color: rgb(100,70,20);" />
+      <TextField layoutX="26.0" layoutY="267.0" prefHeight="25.0" prefWidth="497.0" style="-fx-background-color: rgb(100,70,20);" />
+      <Label layoutX="49.0" layoutY="14.0" text="CADASTRO CLIENTE">
+         <font>
+            <Font name="AMGDT" size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="79.0" text="ID">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="151.0" text="NOME">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="79.0" text="TELEFONE">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label layoutX="26.0" layoutY="233.0" text="ENDEREÇO">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+   </children>
+</Pane>
